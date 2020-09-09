@@ -12,10 +12,15 @@ def add_element_to_end_of_array(element = "arrays!", array)
   p element
 end
 
+<<<<<<< HEAD
 def add_element_to_start_of_array(element = "wow", array)
   array = ["I", "am", "really", "learning", "arrays!"]
   element.unshift("wow")
   p element
+=======
+def add_element_to_start_of_array(array, element = "wow")
+  
+>>>>>>> 1bf9564732d8e0fedd5de5efc69b37f8b032d1d1
 end
 
 def remove_element_from_end_of_array(array)
